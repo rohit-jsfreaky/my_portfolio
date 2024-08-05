@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import nullclass from "./company/nullclass.png"
 import resume from "./project.png"
+import job from "./job-portal.jpg"
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   nullclass,
-  resume
+  resume,
+  job
 };

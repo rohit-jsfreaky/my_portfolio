@@ -24,7 +24,8 @@ import {
   tripguide,
   threejs,
   nullclass,
-  resume
+  resume,
+  job
 } from "../assets";
 
 export const navLinks = [
@@ -169,6 +170,31 @@ const projects = [
     image: resume,
     source_code_link: "https://github.com/rohit-jsfreaky/resume-builder-ai",
     web_link : "https://resume-builder-ai-ashy.vercel.app/",
+  },
+  {
+    name: "Job Portal",
+    description:
+      "Developed a job portal using React, Node.js, and MongoDB. Features include secure authentication, job postings, and application management, bridging the gap between students andemployers.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name : "Node js",
+        color : "green-text-gradient"
+      },
+    ],
+    image: job,
+    source_code_link: "https://github.com/rohit-jsfreaky/job-portal",
   },
 ];
 
