@@ -11,6 +11,7 @@ import {
   StarsCanvas,
 } from "./components/index";
 import Home from "./components/Home";
+import Skill2 from "./components/Skill2";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <div>
           <About />
           <Experience />
-          <Tech />
+          {/* <Tech /> */}
+          <Skill2/>
           <Works />
           {/* <Feedbacks/> */}
           <div className="relative z-0">

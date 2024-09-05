@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import nullclass from "./company/nullclass.png"
 import resume from "./project.png"
 import job from "./job-portal.jpg"
+import zidio from "./company/zidio.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   tripguide,
   nullclass,
   resume,
-  job
+  job,
+  zidio
 };

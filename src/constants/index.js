@@ -25,7 +25,8 @@ import {
   threejs,
   nullclass,
   resume,
-  job
+  job,
+  zidio
 } from "../assets";
 
 export const navLinks = [
@@ -58,7 +59,7 @@ const services = [
   },
 ];
 
-const technologies = [
+const technologies= [
   {
     name: "HTML 5",
     icon: html,
@@ -103,7 +104,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
+    title: "Mern Stack Developer intern",
+    company_name: "Zidio Development",  
+    icon: zidio,
+    iconBg: "#383E56",
+    date: "July 2024 - september 2024",
+    points: [
+      "Developed a full-stack AI-powered resume builder using React, Node.js, and MongoDB, integrating Gemini API for AI-driven suggestions and Clerk for secure authentication.",
+      "Built a dynamic job portal using the MERN stack, implementing recruiter and student authentication, job posting features, and job application tracking.",
+      "Utilized RESTful APIs to handle user authentication, job data retrieval, and secure communication between frontend and backend systems.",
+      "Ensured seamless UI/UX with Tailwind CSS and Shadcn UI, improving user experience across devices while optimizing performance.",
+    ],
+  },
+  {
+    title: "Full Stack Developer intern",
     company_name: "NulClass",
     icon: nullclass,
     iconBg: "#383E56",
