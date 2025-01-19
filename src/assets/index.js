@@ -34,6 +34,16 @@ import resume from "./project.png"
 import job from "./job-portal.jpg"
 import zidio from "./company/zidio.png"
 
+import aws from "./tech/AWS.png"
+import Express from "./tech/Express.png"
+import GitHub from "./tech/GitHub.png"
+import Next from "./tech/Next.png"
+import MySQL from "./tech/MySQL.png"
+
+import ReactNative from "./tech/React-Native.png"
+import AiInterview from "./ai-interview.png"
+import CsvEditor from "./cvs-editor.png"
+
 export {
   logo,
   backend,
@@ -66,5 +76,13 @@ export {
   nullclass,
   resume,
   job,
-  zidio
+  zidio,
+  aws,
+  Express,
+  GitHub,
+  Next,
+  MySQL,
+  ReactNative,
+  AiInterview,
+  CsvEditor
 };

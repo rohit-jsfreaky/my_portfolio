@@ -26,7 +26,15 @@ import {
   nullclass,
   resume,
   job,
-  zidio
+  zidio,
+  Next,
+  Express,
+  GitHub,
+  aws,
+  MySQL,
+  ReactNative,
+  AiInterview,
+  CsvEditor
 } from "../assets";
 
 export const navLinks = [
@@ -46,8 +54,8 @@ export const navLinks = [
 
 const services = [
   {
-    title : "Full Stack Developer",
-    icon : mobile
+    title: "Software Developer",
+    icon: mobile
   },
   {
     title: "Web Developer",
@@ -59,7 +67,7 @@ const services = [
   },
 ];
 
-const technologies= [
+const technologies = [
   {
     name: "HTML 5",
     icon: html,
@@ -81,6 +89,14 @@ const technologies= [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: Next,
+  },
+  {
+    name: "React Native",
+    icon: ReactNative,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -93,6 +109,10 @@ const technologies= [
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: Express,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -100,12 +120,24 @@ const technologies= [
     name: "git",
     icon: git,
   },
+  {
+    name: "GitHub",
+    icon: GitHub,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "MySQL",
+    icon: MySQL,
+  },
 ];
 
 const experiences = [
   {
     title: "Mern Stack Developer intern",
-    company_name: "Zidio Development",  
+    company_name: "Zidio Development",
     icon: zidio,
     iconBg: "#383E56",
     date: "July 2024 - september 2024",
@@ -160,6 +192,70 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Csv Editor",
+    description:
+      "This project is a robust CSV management platform that combines dynamic table editing, cloud storage with AWS S3, and secure authentication to deliver a seamless and user-friendly experience for managing and editing CSV files. ",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },  
+      {
+        name: "Aws S3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Shad cn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextApi",
+        color: "blue-text-gradient",
+      },  
+    ],
+    image: CsvEditor,
+    source_code_link: "https://github.com/rohit-jsfreaky/Csv-Editor",
+    web_link: "https://csv-editor-steel.vercel.app/",
+  },
+  {
+    name: "Ai Mock Interview",
+    description:
+      "Built an AI-powered mock interview platform with Next.js, Drizzle ORM, and NeonDB, enhancing user preparation by 80%. Integrated Gemini API for tailored questions and Clerk for secure authentication, ensuring efficiency and scalability.",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },  
+      {
+        name: "Drizzle ORM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NeonDB",
+        color: "green-text-gradient"
+      },
+      {
+        name: "Shad cn",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: AiInterview,
+    source_code_link: "https://github.com/rohit-jsfreaky/Ai-mock-interview",
+    web_link: "https://ai-mock-interview-umber.vercel.app/",
+  },
+  {
     name: "Ai Resume Builder",
     description:
       "I've developed an AI-powered resume builder using React, Node.js, and MongoDB, featuring AI-driven suggestions via Gemini API and secure authentication with Clerk.",
@@ -177,13 +273,13 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name : "Node js",
-        color : "green-text-gradient"
+        name: "Node js",
+        color: "green-text-gradient"
       },
     ],
     image: resume,
     source_code_link: "https://github.com/rohit-jsfreaky/resume-builder-ai",
-    web_link : "https://resume-builder-ai-ashy.vercel.app/",
+    web_link: "https://resume-builder-ai-ashy.vercel.app/",
   },
   {
     name: "Job Portal",
@@ -203,8 +299,8 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name : "Node js",
-        color : "green-text-gradient"
+        name: "Node js",
+        color: "green-text-gradient"
       },
     ],
     image: job,

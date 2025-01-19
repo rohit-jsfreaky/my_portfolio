@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import BlobCursor from "../animated-ui-components/BlobCursor";
 
 
 const ServiceCard =({index,title , icon})=>{
@@ -39,6 +40,7 @@ const ServiceCard =({index,title , icon})=>{
 const About = () => {
   return (
     <>
+   
       <motion.div variants={textVariant()} id="about">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -47,13 +49,10 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React,and  Node.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hi there! I’m Rohit, a passionate developer with a knack for transforming ideas into dynamic, real-world solutions. With hands-on experience in crafting web and mobile applications, I specialize in building innovative platforms that bridge the gap between creativity and functionality. My journey revolves around constant learning, experimenting, and delivering impactful projects. Whether it's a complex codebase or an elegant user interface, I’m all about creating seamless digital experiences that make a difference.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20  flex flex-wrap gap-10">
       {services.map((service,index)=>(
         <ServiceCard key={service.title} index={index} {...service}/>
       ))}
