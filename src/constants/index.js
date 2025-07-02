@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -13,17 +12,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  nullclass,
   resume,
   job,
   zidio,
@@ -34,7 +22,9 @@ import {
   MySQL,
   ReactNative,
   AiInterview,
-  CsvEditor
+  CsvEditor,
+  cogent,
+  corider,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +45,7 @@ export const navLinks = [
 const services = [
   {
     title: "Software Developer",
-    icon: mobile
+    icon: mobile,
   },
   {
     title: "Web Developer",
@@ -136,29 +126,42 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer Engineer intern (React-native)",
+    company_name: "CoRider",
+    icon: corider,
+    iconBg: "#383E56",
+    date: "Jan 2024 - May 2024",
+    points: [
+      "Improved UI Performance by 40% – Optimized re-renders and data flow to enhance app responsiveness and user experience.",
+      "Integrated 100% Functional Features – Successfully implemented Google APIs, user KYC verification, and real-time chat, ensuring seamless interactions.",
+      "Ensured 99.9% Uptime on Both Platforms – Fixed Android and iOS-specific issues, enabling smooth cross-platform functionality.",
+      "Enhanced State Management by 60% – Optimized data handling for real-time updates, reducing lag and improving app efficiency.",
+    ],
+  },
+  {
+    title: "Software Developer intern",
+    company_name: "Cogent Web Services",
+    icon: cogent,
+    iconBg: "#383E56",
+    date: "July 2024 - Dec 2024",
+    points: [
+      "Developed 5+ full-stack web applications using MERN stack and PostgreSQL, including complex platforms like an esports tournament management system with secure authentication, payment integration, and admin control.",
+      "Engineered complete backend and frontend architecture for multiple client projects, handling RESTful APIs, responsive UI, and real-time data using React, Node.js, and Express.",
+      "Built and deployed a cross-platform mobile application using React Native under NDA, integrating secure user flows, API consumption, and native device capabilities.",
+      "Delivered production-ready solutions for businesses, from modern portfolio websites to scalable multi-user platforms, improving user engagement and functionality by 40%+.",
+    ],
+  },
+  {
     title: "Mern Stack Developer intern",
     company_name: "Zidio Development",
     icon: zidio,
     iconBg: "#383E56",
-    date: "July 2024 - september 2024",
+    date: "Apr 2024 - June 2024",
     points: [
       "Developed a full-stack AI-powered resume builder using React, Node.js, and MongoDB, integrating Gemini API for AI-driven suggestions and Clerk for secure authentication.",
       "Built a dynamic job portal using the MERN stack, implementing recruiter and student authentication, job posting features, and job application tracking.",
       "Utilized RESTful APIs to handle user authentication, job data retrieval, and secure communication between frontend and backend systems.",
       "Ensured seamless UI/UX with Tailwind CSS and Shadcn UI, improving user experience across devices while optimizing performance.",
-    ],
-  },
-  {
-    title: "Full Stack Developer intern",
-    company_name: "NulClass",
-    icon: nullclass,
-    iconBg: "#383E56",
-    date: "May 2024 - June 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -199,7 +202,7 @@ const projects = [
       {
         name: "Next",
         color: "blue-text-gradient",
-      },  
+      },
       {
         name: "Aws S3",
         color: "green-text-gradient",
@@ -219,7 +222,7 @@ const projects = [
       {
         name: "NextApi",
         color: "blue-text-gradient",
-      },  
+      },
     ],
     image: CsvEditor,
     source_code_link: "https://github.com/rohit-jsfreaky/Csv-Editor",
@@ -233,7 +236,7 @@ const projects = [
       {
         name: "Next",
         color: "blue-text-gradient",
-      },  
+      },
       {
         name: "Drizzle ORM",
         color: "green-text-gradient",
@@ -244,7 +247,7 @@ const projects = [
       },
       {
         name: "NeonDB",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "Shad cn",
@@ -274,7 +277,7 @@ const projects = [
       },
       {
         name: "Node js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
     ],
     image: resume,
@@ -300,7 +303,7 @@ const projects = [
       },
       {
         name: "Node js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
     ],
     image: job,

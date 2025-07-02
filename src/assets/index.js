@@ -26,23 +26,26 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import corider from "./company/corider.jpg";
+import cogent from "./company/cogent.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import nullclass from "./company/nullclass.png"
-import resume from "./project.png"
-import job from "./job-portal.jpg"
-import zidio from "./company/zidio.png"
+import nullclass from "./company/nullclass.png";
+import resume from "./project.png";
+import job from "./job-portal.jpg";
+import zidio from "./company/zidio.png";
 
-import aws from "./tech/AWS.png"
-import Express from "./tech/Express.png"
-import GitHub from "./tech/GitHub.png"
-import Next from "./tech/Next.png"
-import MySQL from "./tech/MySQL.png"
+import aws from "./tech/AWS.png";
+import Express from "./tech/Express.png";
+import GitHub from "./tech/GitHub.png";
+import Next from "./tech/Next.png";
+import MySQL from "./tech/MySQL.png";
 
-import ReactNative from "./tech/React-Native.png"
-import AiInterview from "./ai-interview.png"
-import CsvEditor from "./cvs-editor.png"
+import ReactNative from "./tech/React-Native.png";
+import AiInterview from "./ai-interview.png";
+import CsvEditor from "./cvs-editor.png";
 
 export {
   logo,
@@ -84,5 +87,7 @@ export {
   MySQL,
   ReactNative,
   AiInterview,
-  CsvEditor
+  CsvEditor,
+  corider,
+  cogent,
 };
