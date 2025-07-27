@@ -130,7 +130,7 @@ const experiences = [
     company_name: "CoRider",
     icon: corider,
     iconBg: "#383E56",
-    date: "Jan 2024 - May 2024",
+    date: "Jan 2025 - May 2025",
     points: [
       "Improved UI Performance by 40% – Optimized re-renders and data flow to enhance app responsiveness and user experience.",
       "Integrated 100% Functional Features – Successfully implemented Google APIs, user KYC verification, and real-time chat, ensuring seamless interactions.",
