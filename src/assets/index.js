@@ -28,6 +28,8 @@ import tesla from "./company/tesla.png";
 
 import corider from "./company/corider.jpg";
 import cogent from "./company/cogent.png";
+import revenza from "./company/revenza.jpg";
+import techorigins from "./company/techorigins.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,10 +44,12 @@ import Express from "./tech/Express.png";
 import GitHub from "./tech/GitHub.png";
 import Next from "./tech/Next.png";
 import MySQL from "./tech/MySQL.png";
+import pg from "./tech/pg.png";
 
 import ReactNative from "./tech/React-Native.png";
 import AiInterview from "./ai-interview.png";
 import CsvEditor from "./cvs-editor.png";
+import skillArena from "./skill-arena.png";
 
 export {
   logo,
@@ -90,4 +94,8 @@ export {
   CsvEditor,
   corider,
   cogent,
+  revenza,
+  techorigins,
+  pg,
+  skillArena
 };

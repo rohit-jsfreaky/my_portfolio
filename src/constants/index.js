@@ -25,6 +25,10 @@ import {
   CsvEditor,
   cogent,
   corider,
+  revenza,
+  techorigins,
+  pg,
+  skillArena,
 } from "../assets";
 
 export const navLinks = [
@@ -122,9 +126,39 @@ const technologies = [
     name: "MySQL",
     icon: MySQL,
   },
+  {
+    name: "PostgreSQL",
+    icon: pg,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Frontend Engineer",
+    company_name: "Techorigins",
+    icon: techorigins,
+    iconBg: "#383E56",
+    date: "July 2025 - Present",
+    points: [
+      "Developed and optimized responsive UIs with React.js, improving page load performance by 30% and enhancing user retention",
+      "Implemented reusable component libraries with TypeScript and Tailwind CSS, reducing development time by 25% across projects.",
+      "Collaborated with backend teams to integrate REST and GraphQL APIs, cutting integration issues by 40%",
+      "Improved accessibility and SEO scores of web apps, achieving 95+ Lighthouse scores and boosting organic traffic",
+    ],
+  },
+  {
+    title: "React.js Developer",
+    company_name: "Revenza Tech",
+    icon: revenza,
+    iconBg: "#383E56",
+    date: "May 2025 - July 2025",
+    points: [
+      "Developed and deployed custom ERP systems, streamlining workflows and reducing manual processing time by 30%.",
+      "Built responsive web applications that improved user engagement and led to a 25% faster load time across platforms.",
+      "Delivered cross-platform mobile apps that enhanced customer reach, achieving 40% higher user adoption within the first release cycle.",
+      "Managed full-stack development independently, completing projects 20% ahead of deadlines while ensuring 99.9% uptime",
+    ],
+  },
   {
     title: "Software Developer Engineer intern (React-native)",
     company_name: "CoRider",
@@ -194,6 +228,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Skill Arena",
+    description:
+      "This project is a robust CSV management platform that combines dynamic table editing, cloud storage with AWS S3, and secure authentication to deliver a seamless and user-friendly experience for managing and editing CSV files. ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Shad cn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Razorpay",
+        color: "green-text-gradient",
+      },
+    ],
+    image: skillArena,
+    source_code_link: "https://github.com/rohit-jsfreaky/skill-arena-frontend",
+  },
+
   {
     name: "Csv Editor",
     description:
